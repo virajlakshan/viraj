@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Navbar -->
+    <nav class="p-5 bg-gray-800 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">My Photography</h1>
+            <ul class="flex space-x-6">
+                <li><a href="#home" class="hover:text-gray-400">Home</a></li>
+                <li><a href="#portfolio" class="hover:text-gray-400">Portfolio</a></li>
+                <li><a href="#contact" class="hover:text-gray-400">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="h-screen flex items-center justify-center text-center bg-cover bg-center" style="background-image: url('https://source.unsplash.com/1600x900/?photography');">
+        <div class="bg-black bg-opacity-50 p-10 rounded-lg">
+            <h2 class="text-4xl font-bold">Capturing Moments, Creating Memories</h2>
+            <p class="mt-4 text-lg">Explore my world of stunning photography.</p>
+            <a href="#portfolio" class="mt-6 inline-block bg-blue-500 px-6 py-3 rounded-full hover:bg-blue-600">View Portfolio</a>
+        </div>
+    </header>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-16">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-8">My Work</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <img src="https://source.unsplash.com/400x300/?nature" class="rounded-lg shadow-lg" alt="Nature">
+                <img src="https://source.unsplash.com/400x300/?city" class="rounded-lg shadow-lg" alt="City">
+                <img src="https://source.unsplash.com/400x300/?portrait" class="rounded-lg shadow-lg" alt="Portrait">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-800">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-6">Get In Touch</h3>
+            <p class="mb-6">Interested in working together? Let's connect!</p>
+            <a href="mailto:contact@photography.com" class="bg-blue-500 px-6 py-3 rounded-full hover:bg-blue-600">Email Me</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center bg-gray-900">
+        <p>&copy; 2025 My Photography. All rights reserved.</p>
+    </footer>
+</body>
+</html>
